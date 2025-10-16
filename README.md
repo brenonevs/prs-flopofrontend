@@ -135,9 +135,6 @@ ANALYZE=true
 
 ### Criando o Arquivo .env.local
 ```bash
-# Navegar para o diretório frontend
-cd frontend
-
 # Criar .env
 cat > .env.local << EOF
 NEXT_PUBLIC_API_URL=http://localhost:3001
@@ -162,9 +159,6 @@ cat .env.local
 ### 1. Instalação de Dependências
 
 ```bash
-# Navegar para o frontend
-cd frontend
-
 # Instalar dependências
 npm install
 
@@ -220,24 +214,19 @@ ANALYZE=true npm run dev
 node --version  # v18.17.0+
 npm --version   # 9.0.0+
 
-# 2. Configurar ambiente e verifique o .env se está criado
-cd frontend
-
-# 3. Verificar se backend está rodando
+# 2. Verificar se backend está rodando
 curl http://localhost:3001
 # Se não estiver, seguir guia do backend primeiro
 
-# 4. Instalar dependências
+# 3. Instalar dependências
 npm install
 
-# 5. Iniciar servidor
+# 4. Iniciar servidor
 npm run dev
 ```
 
 #### Execução Diária
 ```bash
-cd frontend
-
 # Verificar se backend está rodando
 curl -I http://localhost:3001
 
