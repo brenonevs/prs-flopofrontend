@@ -3,17 +3,17 @@
 ## 📋 Visão Geral do Frontend
 
 ### Descrição
-O frontend é uma aplicação web moderna construída com **Next.js 15** e **React 19** que oferece uma interface intuitiva para gerenciar regras de anonimização de documentos. A aplicação apresenta dashboards interativos, tabelas de dados organizadas hierarquicamente e formulários para configuração de regras.
+O frontend é uma aplicação web  construída com **Next.js 15** e **React 19** que oferece uma interface para gerenciar regras de anonimização de documentos. A aplicação apresenta dashboards interativos, tabelas de dados organizadas hierarquicamente e formulários para configuração de regras.
 
 ### Tecnologias Principais
-- **Next.js 15** - Framework React full-stack
-- **React 19** - Biblioteca para interfaces de usuário
-- **TailwindCSS 4** - Framework CSS utilitário
-- **TypeScript** - Linguagem de programação
-- **Radix UI** - Componentes acessíveis
-- **Lucide React** - Ícones modernos
-- **Recharts** - Gráficos e visualizações
-- **React Table** - Tabelas avançadas
+- **Next.js 15** 
+- **React 19**
+- **TailwindCSS 4**
+- **TypeScript**
+- **Radix UI**
+- **Lucide React**
+- **Recharts**
+- **React Table**
 
 ### Arquitetura do Frontend
 ```
